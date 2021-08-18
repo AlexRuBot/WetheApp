@@ -1,14 +1,14 @@
 //
-//  CurrentWeather.swift
+//  NetworkManager.swift
 //  Sunny
 //
-//  Created by Ivan Akulov on 05/03/2020.
-//  Copyright © 2020 Ivan Akulov. All rights reserved.
+//  Created by Саша Гужавин on 07.08.2021.
 //
 
 import Foundation
 
 struct CurrentWeather {
+    
     let cityName: String
     
     let temperature: Double

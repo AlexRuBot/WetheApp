@@ -13,7 +13,7 @@ struct NetworkManager {
         case cityName(city: String)
         case coordinate(latitude: CLLocationDegrees, longitude: CLLocationDegrees)
     }
-    
+    let a = 1
     var onCompletion: ((CurrentWeather) -> Void)?
     
     func fetchCurrentWeather(forRequestType requestType: RequestType) {
